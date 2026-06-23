@@ -1,0 +1,86 @@
+
+/*1. SELETOR POR ELEMENTO*/
+
+body {
+    /* Cores contrastantes (fundo claro, letra escura) */
+    background-color: yellow;
+    color: #333333;
+    /* Fonte externa 1 */
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.6;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    /* Fonte externa 2 e Estilo 1 (Negrito) */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*2. SELETOR POR PSEUDO-CLASSE*/
+a {
+    color: #2980b9;
+    /* Decoração de texto 1: Remover sublinhado padrão */
+    text-decoration: none; 
+}
+
+/* Mudando a cor e decoração ao passar o mouse */
+a:hover {
+    color: #e74c3c;
+    /* Decoração de texto 2: Colocar sublinhado ao passar o mouse */
+    text-decoration: underline; 
+}
+
+/*3. SELETOR POR ATRIBUTO*/
+/* Seleciona apenas links que abrem em nova aba (O seu LinkedIn) */
+a[target="_blank"] {
+    font-weight: bold;
+}
+
+/*4. SELETOR POR ID*/
+#resumo {
+    background-color: #ffffff;
+    border-left: 5px solid #2980b9;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+/*5. SELETOR POR CLASSE*/
+.instituicao {
+    color: #16a085;
+    margin-bottom: 2px;
+}
+
+.periodo {
+    /* Estilo 2: Itálico */
+    font-style: italic; 
+    color: #7f8c8d;
+    margin-top: 0;
+}
+
+.foto-perfil {
+    text-align: center;
+}
+
+.foto-perfil img {
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #bdc3c7;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
